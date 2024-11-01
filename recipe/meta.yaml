@@ -1,5 +1,5 @@
 {% set name = "upkie" %}
-{% set version = "5.2.0" %}
+{% set version = "6.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/upkie-{{ version }}.tar.gz
-  sha256: 2a8b6469f8bf03a46536e6684e6726438a7a17b3dfc1d2a47fb491b29f55ceb6
+  sha256: 8a04df0c8568ff698f583d773db0cdc0bc93c202f36e6e3ee7821317a6acf0ae
 
 build:
   noarch: python
