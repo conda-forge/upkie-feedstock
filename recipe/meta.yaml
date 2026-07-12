@@ -1,5 +1,5 @@
 {% set name = "upkie" %}
-{% set version = "11.0.0" %}
+{% set version = "12.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/upkie-{{ version }}.tar.gz
-  sha256: 0118f34d024162fad5a2350ac5bc855bfec04ab341c36700084bbe89081b6097
+  sha256: 8d61669652af42a4a09605b41204b7d7b1e9769910b8fda9a6c25d4f277e0508
 
 build:
   noarch: python
