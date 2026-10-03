@@ -1,5 +1,5 @@
 {% set name = "upkie" %}
-{% set version = "13.0.0" %}
+{% set version = "13.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/upkie-{{ version }}.tar.gz
-  sha256: 4b9d9f18262213714e5111a3535bb41d86a14a4f65fe2aae1dd87a12c864bc04
+  sha256: 091ab2e781bc4415018a8497002277c5fd64be8c2360b395ad3eb67c690fce09
 
 build:
   noarch: python
